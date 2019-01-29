@@ -42,7 +42,7 @@ Example: to launch the Bot
 node /home/pi/Documents/TelegramBot/Bot.js
 ~~~~
 
-###Esempio di codice per fare le richieste meteo.
+### Esempio di codice per fare le richieste meteo.
 ~~~~
 var request = require('request');
 
