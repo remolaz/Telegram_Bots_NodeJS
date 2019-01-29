@@ -41,15 +41,3 @@ Example: to launch the Bot
 ~~~~
 node /home/pi/Documents/TelegramBot/Bot.js
 ~~~~
-
-### Esempio di codice per fare le richieste meteo.
-~~~~
-var request = require('request');
-
-request({url: 'http://yourapi.com/', json: true}, function(err, res, json) {
-  if (err) {
-    throw err;
-  }
-  console.log(json);
-});
-~~~~
